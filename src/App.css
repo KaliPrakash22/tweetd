@@ -1,0 +1,129 @@
+.App {
+  text-align: center;
+}
+
+body {
+	font-family: 'Nunito' , sans-serif;
+  color: #000000;
+  font-size: 50;
+  font-weight: bold;
+  background-image: url('bh1.png');
+}
+
+form {
+	
+  margin-right: 100px;
+	max-width: 500px;
+	margin: 10px auto;
+	padding: 10px 20px;
+	/*background: #a9ccf5;*/
+	background-image: url('bh1.png');
+	border-radius: 8px;
+	font-size: 20px;
+	color:#f4f8fc;
+ font-family: sans-serif;
+}
+textarea,
+select {
+
+	
+	border:none;
+	font-size: 16px;
+	height: auto;
+	margin: 0;
+	outline: 0;
+	padding: 15px;
+	width: 100%;
+	background-color: #000000;
+	color: #000000;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	margin-bottom: 30px;
+}
+
+select {
+
+	padding: 6px;
+	height: 32px;
+	border-radius: 2px;
+}
+
+fieldset {
+	margin-bottom: 30px;
+	border: none;
+}
+.section {
+	background-color: #e6ebee;
+	color: #fff;
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	font-size: 2em;
+	margin-right: 4px;
+	line-height: 30px;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+	border-radius: 100%;
+}
+
+label{
+
+	display: block;
+	margin-bottom: 8px;
+}
+
+label.light {
+	font-weight: 300;
+	display: inline;
+}
+button {
+	padding: 19px 20px 18px 20px;
+	
+	background-color: black;
+	color: black;
+  font-size: 18px;
+  margin-top: 50px;
+  font-weight: bold;
+	text-align: center;
+	font-style: normal;
+	border-radius: 5px;
+	width: 30%;
+	border: 1px solid #3c3ac1;
+	border-width: 1px 1px 2px;
+	box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+	margin-bottom: 10px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
